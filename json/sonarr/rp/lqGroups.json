@@ -1,0 +1,13 @@
+{
+  "name": "Low Quality Groups",
+  "trash_id": "EBC725268D687D588A20CBC5F97E538B",
+  "includePreferredWhenRenaming": false,
+  "required": [],
+  "preferred": [{
+    "score": -100,
+    "terms": [
+      "/(-BRiNK|-CHX|-GHOSTS|MeGusta|-NERO|nhanc3|Pahe\\.ph|Pahe\\.in|TBS|-VIDEOHOLE|-worldmkv|-XLF)\\b/i"
+    ]
+  }],
+  "ignored": []
+}
