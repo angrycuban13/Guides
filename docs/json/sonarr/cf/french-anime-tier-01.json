@@ -1,12 +1,16 @@
 {
   "trash_id": "db13a377f7afb29975ea39470434d2ef",
-  "trash_score": "1600",
+  "trash_scores": {
+    "default": 1650,
+    "french-anime-multi": 1650,
+    "french-anime-vostfr": 1650
+  },
   "name": "FR Anime Tier 01",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
       "name": "Darki",
-      "implementation": "ReleaseGroupSpecification",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
@@ -14,26 +18,35 @@
       }
     },
     {
-      "name": "FUJiSAN",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "Delivroozzi",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(FUJiSAN)\\b"
+        "value": "\\b(Delivroozzi)\\b"
       }
     },
     {
-      "name": "NeoSG",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "Fuceo",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NeoSG)\\b"
+        "value": "\\b(Fuceo)\\b"
+      }
+    },
+    {
+      "name": "Good Job! Alexis",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Good[ .-]?(Job|Rip|Sub)!?[ .-]?Alexis)\\b"
       }
     },
     {
       "name": "Punisher694",
-      "implementation": "ReleaseGroupSpecification",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
@@ -42,7 +55,7 @@
     },
     {
       "name": "SR-71",
-      "implementation": "ReleaseGroupSpecification",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
@@ -51,7 +64,7 @@
     },
     {
       "name": "T3KASHi",
-      "implementation": "ReleaseGroupSpecification",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
@@ -60,7 +73,7 @@
     },
     {
       "name": "TANOSHii",
-      "implementation": "ReleaseGroupSpecification",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
@@ -69,7 +82,7 @@
     },
     {
       "name": "Tsundere-Raws",
-      "implementation": "ReleaseGroupSpecification",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {

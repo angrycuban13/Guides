@@ -1,6 +1,11 @@
 {
   "trash_id": "9019d81307e68cd4a7eb06a567e833b8",
-  "trash_score": "1850",
+  "trash_scores": {
+    "default": 1900,
+    "french-multi-vf": 1900,
+    "french-multi-vo": 1900,
+    "french-vostfr": 0
+  },
   "name": "FR Remux Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -19,7 +24,43 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(BDHD)\\b"
+        "value": "^(BDHD)$"
+      }
+    },
+    {
+      "name": "FtLi",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(FtLi)$"
+      }
+    },
+    {
+      "name": "Goldenyann",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Goldenyann)$"
+      }
+    },
+    {
+      "name": "HeavyWeight",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HeavyWeight)$"
+      }
+    },
+    {
+      "name": "KTM",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(KTM)$"
       }
     },
     {
@@ -28,16 +69,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(MARBLECAKE)\\b"
-      }
-    },
-    {
-      "name": "MiXER",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(MiXER)\\b"
+        "value": "^(MARBLECAKE)$"
       }
     },
     {
@@ -46,7 +78,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(MUSTANG)\\b"
+        "value": "^(MUSTANG)$"
       }
     },
     {
@@ -55,16 +87,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Obi)\\b"
+        "value": "^(Obi)$"
       }
     },
     {
-      "name": "PATOMiEL",
+      "name": "PEPiTE",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(PATOMiEL)\\b"
+        "value": "^(PEPiTE)$"
       }
     },
     {
@@ -73,7 +105,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Q(UEBE)?C63)\\b"
+        "value": "^(Q(UEBE)?C63)$"
       }
     },
     {
@@ -82,16 +114,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(ROMKENT)\\b"
-      }
-    },
-    {
-      "name": "Sicario",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(Sicario)\\b"
+        "value": "^(ROMKENT)$"
       }
     }
   ]

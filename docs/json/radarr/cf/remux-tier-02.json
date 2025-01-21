@@ -1,6 +1,10 @@
 {
   "trash_id": "9f98181fe5a3fbeb0cc29340da2a468a",
-  "trash_score": "1850",
+  "trash_scores": {
+    "default": 1900,
+    "anime-radarr": 1000,
+    "french-multi-vf": 0
+  },
   "name": "Remux Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -14,57 +18,12 @@
       }
     },
     {
-      "name": "decibeL",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(decibeL)\\b"
-      }
-    },
-    {
-      "name": "EPSiLON",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(EPSiLON)\\b"
-      }
-    },
-    {
       "name": "Flights",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Flights)\\b"
-      }
-    },
-    {
-      "name": "HiFi",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(HiFi)\\b"
-      }
-    },
-    {
-      "name": "iFT",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(iFT)\\b"
-      }
-    },
-    {
-      "name": "KRaLiMaRKo",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(KRaLiMaRKo)\\b"
+        "value": "^(Flights)$"
       }
     },
     {
@@ -73,16 +32,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NCmt)\\b"
-      }
-    },
-    {
-      "name": "NTb",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(NTb)\\b"
+        "value": "^(NCmt)$"
       }
     },
     {
@@ -91,25 +41,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(playBD)\\b"
+        "value": "^(playBD)$"
       }
     },
     {
-      "name": "PTP",
+      "name": "SiCFoI",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(PTP)\\b"
-      }
-    },
-    {
-      "name": "SumVision",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(SumVision)\\b"
+        "value": "^(SiCFoI)$"
       }
     },
     {
@@ -118,7 +59,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SURFINBIRD)\\b"
+        "value": "^(SURFINBIRD)$"
       }
     },
     {
@@ -127,25 +68,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(TEPES)\\b"
-      }
-    },
-    {
-      "name": "TOA",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(TOA)\\b"
-      }
-    },
-    {
-      "name": "TRiToN",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(TRiToN)\\b"
+        "value": "^(TEPES)$"
       }
     }
   ]

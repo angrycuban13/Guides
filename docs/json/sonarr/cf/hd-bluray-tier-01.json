@@ -1,6 +1,9 @@
 {
   "trash_id": "d6819cba26b1a6508138d25fb5e32293",
-  "trash_score": "1800",
+  "trash_scores": {
+    "default": 1800,
+    "french-multi-vf": 0
+  },
   "name": "HD Bluray Tier 01",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -37,7 +40,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Chotab)\\b"
+        "value": "^(Chotab)$"
       }
     },
     {
@@ -46,7 +49,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(CtrlHD)\\b"
+        "value": "^(CtrlHD)$"
       }
     },
     {
@@ -55,7 +58,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(DON)\\b"
+        "value": "^(DON)$"
       }
     },
     {
@@ -64,7 +67,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(EbP)\\b"
+        "value": "^(EbP)$"
       }
     },
     {
@@ -73,7 +76,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NTb)\\b"
+        "value": "^(NTb)$"
       }
     },
     {
@@ -82,7 +85,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(PTer)\\b"
+        "value": "^(PTer)$"
       }
     }
   ]
