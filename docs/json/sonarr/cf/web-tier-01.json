@@ -1,6 +1,10 @@
 {
   "trash_id": "e6258996055b9fbab7e9cb2f75819294",
-  "trash_score": "1700",
+  "trash_scores": {
+    "default": 1700,
+    "anime-sonarr": 350,
+    "french-multi-vf": 0
+  },
   "name": "WEB Tier 01",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -10,7 +14,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(ABBiE)\\b"
+        "value": "^(ABBiE)$"
       }
     },
     {
@@ -19,7 +23,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(AJP69)\\b"
+        "value": "^(AJP69)$"
       }
     },
     {
@@ -28,7 +32,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(APEX|PAXA|PEXA|XEPA)\\b"
+        "value": "^(APEX|PAXA|PEXA|XEPA)$"
       }
     },
     {
@@ -37,7 +41,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(CasStudio)\\b"
+        "value": "^(CasStudio)$"
       }
     },
     {
@@ -46,7 +50,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(CRFW)\\b"
+        "value": "^(CRFW)$"
       }
     },
     {
@@ -55,7 +59,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(CtrlHD)\\b"
+        "value": "^(CtrlHD)$"
       }
     },
     {
@@ -64,7 +68,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(FLUX)\\b"
+        "value": "^(FLUX)$"
       }
     },
     {
@@ -73,7 +77,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(HONE)\\b"
+        "value": "^(HONE)$"
       }
     },
     {
@@ -82,7 +86,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(KiNGS)\\b"
+        "value": "^(KiNGS)$"
+      }
+    },
+    {
+      "name": "Kitsune",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Kitsune)$"
       }
     },
     {
@@ -91,7 +104,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(monkee)\\b"
+        "value": "^(monkee)$"
       }
     },
     {
@@ -100,7 +113,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NOSiViD)\\b"
+        "value": "^(NOSiViD)$"
       }
     },
     {
@@ -109,7 +122,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NTb)\\b"
+        "value": "^(NTb)$"
       }
     },
     {
@@ -118,7 +131,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NTG)\\b"
+        "value": "^(NTG)$"
       }
     },
     {
@@ -127,7 +140,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(QOQ)\\b"
+        "value": "^(QOQ)$"
       }
     },
     {
@@ -136,7 +149,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(RTN)\\b"
+        "value": "^(RTN)$"
       }
     },
     {
@@ -145,7 +158,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SiC)\\b"
+        "value": "^(SiC)$"
       }
     },
     {
@@ -154,7 +167,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(T6D)\\b"
+        "value": "^(T6D)$"
       }
     },
     {
@@ -163,7 +176,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(TOMMY)\\b"
+        "value": "^(TOMMY)$"
       }
     },
     {
@@ -172,7 +185,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(ViSUM)\\b"
+        "value": "^(ViSUM)$"
       }
     },
     {

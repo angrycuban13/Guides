@@ -1,6 +1,9 @@
 {
   "trash_id": "2016d1676f5ee13a5b7257ff86ac9a93",
-  "trash_score": "-10000",
+  "trash_scores": {
+    "default": -10000,
+    "german": -35000
+  },
   "name": "SDR",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -19,7 +22,7 @@
       "negate": true,
       "required": false,
       "fields": {
-        "value": "\\b(HDR(\\b|\\d))|\\b(DV|DoVi|Dolby[ .]?Vision)\\b|\\b(PQ)\\b|\\b(HLG(\\b|\\d))|\\b(FraMeSToR|HQMUX|SiCFoI)\\b"
+        "value": "\\bHDR(\\b|\\d)|\\b(dv|dovi|dolby[ .]?v(ision)?)\\b|\\b(FraMeSToR|HQMUX|SICFoI)\\b|\\b(PQ)\\b|\\bHLG(\\b|\\d)"
       }
     },
     {
@@ -28,7 +31,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SDR)\\b"
+        "value": "\\bSDR\\b"
       }
     }
   ]

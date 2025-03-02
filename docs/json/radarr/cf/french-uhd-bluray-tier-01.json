@@ -1,6 +1,11 @@
 {
   "trash_id": "64f8f12bbf7472a6ccf838bfd6b5e3e8",
-  "trash_score": "2300",
+  "trash_scores": {
+    "default": 1800,
+    "french-multi-vf": 1800,
+    "french-multi-vo": 1800,
+    "french-vostfr": 0
+  },
   "name": "FR UHD Bluray Tier 01",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -10,7 +15,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(FLOP)\\b"
+        "value": "^(FLOP)$"
       }
     },
     {
@@ -19,16 +24,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(FRATERNiTY)\\b"
+        "value": "^(FRATERNiTY)$"
       }
     },
     {
-      "name": "ONLY",
+      "name": "FoX",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(ONLY)\\b"
+        "value": "^(FoX)$"
       }
     },
     {
@@ -37,16 +42,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Psaro)\\b"
-      }
-    },
-    {
-      "name": "SowHD",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(SowHD)\\b"
+        "value": "^(Psaro)$"
       }
     },
     {

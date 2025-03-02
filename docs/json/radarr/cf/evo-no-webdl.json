@@ -1,16 +1,19 @@
 {
   "trash_id": "90cedc1fea7ea5d11298bebd3d1d3223",
-  "trash_score": "-10000",
+  "trash_scores": {
+    "default": -10000,
+    "german": -35000
+  },
   "name": "EVO (no WEBDL)",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
       "name": "EVO",
-      "implementation": "ReleaseTitleSpecification",
+      "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": true,
       "fields": {
-        "value": "\\bEVO(TGX)?\\b"
+        "value": "^(EVO(TGX)?)$"
       }
     },
     {

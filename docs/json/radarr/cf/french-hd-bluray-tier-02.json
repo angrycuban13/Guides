@@ -1,6 +1,13 @@
 {
   "trash_id": "57f34251344be2e283fc30e00e458be6",
-  "trash_score": "1750",
+  "trash_scores": {
+    "default": 1750,
+    "french-anime-multi": 1200,
+    "french-anime-vostfr": 1200,
+    "french-multi-vf": 1750,
+    "french-multi-vo": 1750,
+    "french-vostfr": 0
+  },
   "name": "FR HD Bluray Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -32,21 +39,12 @@
       }
     },
     {
-      "name": "FUJiSAN",
+      "name": "HDForever",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(FUJiSAN)\\b"
-      }
-    },
-    {
-      "name": "HANAMi",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(HANAMi)\\b"
+        "value": "^(HDForever)$"
       }
     },
     {
@@ -55,16 +53,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(HeavyWeight)\\b"
-      }
-    },
-    {
-      "name": "HLX",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(HLX)\\b"
+        "value": "^(HeavyWeight)$"
       }
     },
     {
@@ -73,16 +62,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(MARBLECAKE)\\b"
+        "value": "^(MARBLECAKE)$"
       }
     },
     {
-      "name": "NEO",
+      "name": "MYSTERiON",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NEO)\\b"
+        "value": "^(MYSTERiON)$"
       }
     },
     {
@@ -91,7 +80,25 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NoNE)\\b"
+        "value": "^(NoNE)$"
+      }
+    },
+    {
+      "name": "ONLY",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ONLY)$"
+      }
+    },
+    {
+      "name": "ONLYMOViE",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ONLYMOViE)$"
       }
     },
     {
@@ -100,7 +107,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(TkHD)\\b"
+        "value": "^(TkHD)$"
       }
     },
     {
@@ -109,7 +116,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(UTT)\\b"
+        "value": "^(UTT)$"
       }
     }
   ]

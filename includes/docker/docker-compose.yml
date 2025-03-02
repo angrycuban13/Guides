@@ -2,11 +2,10 @@ version: "3.2"
 services:
   radarr:
     container_name: radarr
-    image: cr.hotio.dev/hotio/radarr:latest
+    image: ghcr.io/hotio/radarr:latest
     restart: unless-stopped
     logging:
       driver: json-file
-    network_mode: bridge
     ports:
       - 7878:7878
     environment:
@@ -19,11 +18,10 @@ services:
       - /data:/data
   sonarr:
     container_name: sonarr
-    image: cr.hotio.dev/hotio/sonarr:latest
+    image: ghcr.io/hotio/sonarr:latest
     restart: unless-stopped
     logging:
       driver: json-file
-    network_mode: bridge
     ports:
       - 8989:8989
     environment:
@@ -36,11 +34,10 @@ services:
       - /data:/data
   bazarr:
     container_name: bazarr
-    image: cr.hotio.dev/hotio/bazarr:latest
+    image: ghcr.io/hotio/bazarr:latest
     restart: unless-stopped
     logging:
       driver: json-file
-    network_mode: bridge
     ports:
       - 6767:6767
     environment:
@@ -53,11 +50,10 @@ services:
       - /data/media:/data/media
   sabnzbd:
     container_name: sabnzbd
-    image: cr.hotio.dev/hotio/sabnzbd:latest
+    image: ghcr.io/hotio/sabnzbd:latest
     restart: unless-stopped
     logging:
       driver: json-file
-    network_mode: bridge
     ports:
       - 8080:8080
       - 9090:9090

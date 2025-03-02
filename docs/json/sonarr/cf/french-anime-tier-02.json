@@ -1,48 +1,61 @@
 {
   "trash_id": "4e6134a384dbc0ef166234cc0e45d26d",
-  "trash_score": "1550",
+  "trash_scores": {
+    "default": 1600,
+    "french-anime-multi": 1600,
+    "french-anime-vostfr": 1600
+  },
   "name": "FR Anime Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "BLV",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "Aoi-Project",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(BLV)\\b"
+        "value": "\\b(Aoi[ .-]?Project)\\b"
       }
     },
     {
-      "name": "D3T3R10R1TY",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "Elecman",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(D3T3R10R1TY)\\b"
+        "value": "\\b(Elecman)\\b"
       }
     },
     {
-      "name": "Good Job! Alexis",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "FUJiSAN",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Good[ .-]?(Job|Rip|Sub)!?[ .-]?Alexis)\\b"
+        "value": "\\b(FUJiSAN)\\b"
       }
     },
     {
-      "name": "HANAMi",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "GundamGuy",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(HANAMi)\\b"
+        "value": "\\b(GundamGuy)\\b"
+      }
+    },
+    {
+      "name": "IssouCorp",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(IssouCorp)\\b"
       }
     },
     {
       "name": "KAF",
-      "implementation": "ReleaseGroupSpecification",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
@@ -50,44 +63,26 @@
       }
     },
     {
-      "name": "KHAYA",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "Nagutos",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(KHAYA)\\b"
+        "value": "\\b(Nagutos)\\b"
       }
     },
     {
-      "name": "Monkey-D.Lulu",
-      "implementation": "ReleaseGroupSpecification",
+      "name": "OECUF",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Monkey[ .-]?D[ .-]?Lulu)\\b"
-      }
-    },
-    {
-      "name": "RONiN",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(RONiN)\\b"
-      }
-    },
-    {
-      "name": "TTN",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(TTN)\\b"
+        "value": "\\b(OECUF)\\b"
       }
     },
     {
       "name": "XSPITFIRE911",
-      "implementation": "ReleaseGroupSpecification",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {

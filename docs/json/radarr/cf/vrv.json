@@ -1,6 +1,8 @@
 {
   "trash_id": "60f6d50cbd3cfc3e9a8c00e3a30c3114",
-  "trash_score": "10",
+  "trash_scores": {
+    "default": 10
+  },
   "name": "VRV",
   "includeCustomFormatWhenRenaming": true,
   "specifications": [
@@ -11,6 +13,24 @@
       "required": true,
       "fields": {
         "value": "\\b(vrv)\\b"
+      }
+    },
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 7
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 8
       }
     }
   ]

@@ -1,153 +1,13 @@
 {
   "trash_id": "c20f169ef63c5f40c2def54abaf4438e",
-  "trash_score": "1700",
+  "trash_scores": {
+    "default": 1700,
+    "anime-radarr": 350,
+    "french-multi-vf": 0
+  },
   "name": "WEB Tier 01",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
-    {
-      "name": "ABBIE",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(ABBIE)\\b"
-      }
-    },
-    {
-      "name": "AJP69",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(AJP69)\\b"
-      }
-    },
-    {
-      "name": "APEX",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(APEX|PAXA|PEXA|XEPA)\\b"
-      }
-    },
-    {
-      "name": "BLUTONiUM",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(BLUTONiUM)\\b"
-      }
-    },
-    {
-      "name": "CMRG",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(CMRG)\\b"
-      }
-    },
-    {
-      "name": "CRFW",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(CRFW)\\b"
-      }
-    },
-    {
-      "name": "CRUD",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(CRUD)\\b"
-      }
-    },
-    {
-      "name": "FLUX",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(FLUX)\\b"
-      }
-    },
-    {
-      "name": "GNOME",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(GNOME)\\b"
-      }
-    },
-    {
-      "name": "HONE",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(HONE)\\b"
-      }
-    },
-    {
-      "name": "KiNGS",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(KiNGS)\\b"
-      }
-    },
-    {
-      "name": "NOSiViD",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(NOSiViD)\\b"
-      }
-    },
-    {
-      "name": "NTb",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(NTb)\\b"
-      }
-    },
-    {
-      "name": "NTG",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(NTG)\\b"
-      }
-    },
-    {
-      "name": "SiC",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(SiC)\\b"
-      }
-    },
-    {
-      "name": "TEPES",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(TEPES)\\b"
-      }
-    },
     {
       "name": "WEBDL",
       "implementation": "SourceSpecification",
@@ -164,6 +24,159 @@
       "required": false,
       "fields": {
         "value": 8
+      }
+    },
+    {
+      "name": "ABBIE",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ABBIE)$"
+      }
+    },
+    {
+      "name": "AJP69",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(AJP69)$"
+      }
+    },
+    {
+      "name": "APEX",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(APEX|PAXA|PEXA|XEPA)$"
+      }
+    },
+    {
+      "name": "BLUTONiUM",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(BLUTONiUM)$"
+      }
+    },
+    {
+      "name": "CMRG",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(CMRG)$"
+      }
+    },
+    {
+      "name": "CRFW",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(CRFW)$"
+      }
+    },
+    {
+      "name": "CRUD",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(CRUD)$"
+      }
+    },
+    {
+      "name": "FLUX",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(FLUX)$"
+      }
+    },
+    {
+      "name": "GNOME",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(GNOME)$"
+      }
+    },
+    {
+      "name": "HONE",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HONE)$"
+      }
+    },
+    {
+      "name": "KiNGS",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(KiNGS)$"
+      }
+    },
+    {
+      "name": "Kitsune",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Kitsune)$"
+      }
+    },
+    {
+      "name": "NOSiViD",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(NOSiViD)$"
+      }
+    },
+    {
+      "name": "NTb",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(NTb)$"
+      }
+    },
+    {
+      "name": "NTG",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(NTG)$"
+      }
+    },
+    {
+      "name": "SiC",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(SiC)$"
+      }
+    },
+    {
+      "name": "TEPES",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(TEPES)$"
       }
     }
   ]
